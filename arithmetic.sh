@@ -24,3 +24,4 @@ num[3]=$(($a%$b+$c));
 echo "${num[@]}"
 
 sort -nr <(printf "%s\n" "${num[@]}")
+sort -n <(printf "%s\n" "${num[@]}")
