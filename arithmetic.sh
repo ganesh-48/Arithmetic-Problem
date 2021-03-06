@@ -7,4 +7,5 @@ read a
 read b
 read c
 
-num=$(($a+$b*$c));
+num1=$(($a+$b*$c));
+num2=$(($a*$b+$c));
