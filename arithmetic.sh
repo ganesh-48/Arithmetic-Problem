@@ -6,3 +6,5 @@ echo -n "Enter a numbers"
 read a
 read b
 read c
+
+num=$(($a+$b*$c));
